@@ -1,18 +1,19 @@
-body{
+body {
 
-background-color: black;
+    background-color: black;
 }
-header{
+
+header {
     background-image: url(../images/Repy_portrait_reunion-graffiti.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 60vh;
-    
+
 
 }
 
-.header__titre{
+.header__titre {
     position: absolute;
     right: 250px;
     top: 70px;
@@ -20,7 +21,7 @@ header{
 
 }
 
-h1{
+h1 {
 
 
     color: white;
@@ -30,7 +31,7 @@ h1{
 
 }
 
-h2{
+h2 {
 
     font-size: 1.5rem;
     display: block;
@@ -39,7 +40,7 @@ h2{
 
 }
 
-h3{
+h3 {
 
 
     color: white;
@@ -58,65 +59,163 @@ h3{
 
 
 
-.main__wrapper{
+.main__wrapper {
 
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-  
+
     flex-wrap: wrap;
 
 }
 
-.main__wrapper__img{
-   width: 28%;
-   padding: 0.1rem;
-   transition: transform .2s; /* Animation */
+.main__wrapper__img {
+    width: 28%;
+    padding: 0.1rem;
+    transition: transform .2s;
+    /* Animation */
 
 }
 
-.main__wrapper__img:hover{
+.main__wrapper__img:hover {
     width: 28%;
     padding: 0.1rem;
     transform: scale(1.1);
-    
- }
 
- .contact__wrapper{
+}
 
+.contact__wrapper {
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-  
+
     flex-wrap: wrap;
 
 }
- 
 
-h4{
+.contact__titre {
+
+    margin-top: 1rem;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
 
 
-    color: rgb(255, 255, 255);
+h4 {
+
+
+    color: black;
     font-size: 1.5rem;
     font-family: 'Ubuntu', sans-serif;
-    padding: 01.5rem;
-    text-align: center;
+    padding: 1.5rem 0;
+    
 
 }
 
-
-
-.main__social{
+form{
     width: 40%;
-    color: white;
+}
+.main__contact {
+
    
-    
+    color: black;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+
+
 }
 
-.main__contact{
-
+.main__social {
     width: 40%;
+    color: black
+}
+
+.main__contact label {
+    font-size: 1.5rem;
+    font-family: 'Playball', cursive;
+    margin-bottom: 0.5rem;
+}
+
+.main__contact input {
+    border: none;
     color: white;
-    
+    background-color: rgba(0, 0, 0, 0.39);
+    margin-bottom: 0.5rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    padding-left: 5ps;
+    border-radius: 2px;
+}
+
+.main__contact textarea {
+    border: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.39);
+    margin-bottom: 0.5rem;
+    height: 8rem;
+    font-size: 1rem;
+    padding-left: 5ps;
+    border-radius: 2px;
+}
+
+.main__contact button {
+    border: none;
+
+    color: white;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    height: 3rem;
+    font-size: 1rem;
+    padding-left: 5ps;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+
+    transition: font-size .3s;
+}
+
+.main__contact button:hover {
+    font-size: 1.2rem;
+}
+
+footer {
+
+    background-color: black;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.7em;
+
+}
+
+.vignette__wrapper{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vignette__wrapper__img{
+    width: 70px;
+    height: 70px;
+    margin: 3px;
+    filter: contrast(100%);
+    transition: filter .3s;
+}
+
+.vignette__wrapper__img:hover{
+    width: 70px;
+    height: 70px;
+    margin: 3px;
+    filter: contrast(250%);
     
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,13 +11,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playball&family=Ubuntu:wght@300&display=swap" rel="stylesheet"></head>
+    <link href="https://fonts.googleapis.com/css2?family=Playball&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
 <body>
     <header>
         <div class="header__titre">
-        <h1>Repy</h1>
-        <h2>Art, Graffiti, illustration.</h2>
-    </div>
+            <h1>Repy</h1>
+            <h2>Art, Graffiti, illustration.</h2>
+        </div>
     </header>
     <main>
         <h3>Mes créations</h3>
@@ -29,10 +32,9 @@
             <img class="main__wrapper__img" src="./images/9.jpg" alt="dessin de repy">
             <video class="main__wrapper__img" autoplay muted loop>
 
-            
-                <source src="./images/repy.mp4"
-                        type="video/mp4">
-            
+
+                <source src="./images/repy.mp4" type="video/mp4">
+
                 Sorry, your browser doesn't support embedded videos.
             </video>
             <img class="main__wrapper__img" src="./images/8.jpg" alt="dessin de repy">
@@ -47,23 +49,66 @@
 
 
         </div>
-        <h3>Contact</h3>
+
+
+        <h3 class="contact__titre">Contact</h3>
         <div class="contact__wrapper">
 
-            <div class="main__contact">
+            <form action="#" method="get">
+                <div class="main__contact">
 
-                <h4>Me contacter</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi fugit eaque quisquam consequuntur voluptatum itaque illum! Quae placeat commodi cumque? Eveniet culpa ducimus porro eligendi facilis, perferendis sit omnis minima!</p>
-            </div>
+                    <h4>Me contacter</h4>
 
+                    <label for="nom">Vôtre nom</label>
+
+
+                    <input type="text" id="nom" name="nom">
+
+                    <label for="nom">Vôtre e-mail</label>
+                    <input type="email" id="mail" name="mail">
+
+
+                    <label for="text">Vôtre message</label>
+                    <textarea name="text" id="text" cols="30" rows="10"></textarea>
+
+                    <button>
+                        Envoyer
+                    </button>
+
+                </div>
+            </form>
             <div class="main__social">
                 <h4>Mes réseaux</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi fugit eaque quisquam consequuntur voluptatum itaque illum! Quae placeat commodi cumque? Eveniet culpa ducimus porro eligendi facilis, perferendis sit omnis minima!</p>
+                <div class="vignette__wrapper">
+
+
+                    <img class="vignette__wrapper__img" src="./images/13.jpg" alt="dessin de repy">
+                    <img class="vignette__wrapper__img" src="./images/12.jpg" alt="dessin de repy">
+                    <img class="vignette__wrapper__img" src="./images/11.jpg" alt="dessin de repy">
+                    <img class="vignette__wrapper__img" src="./images/10.jpg" alt="dessin de repy">
+                    <img class="vignette__wrapper__img" src="./images/9.jpg" alt="dessin de repy">
+                    <img class="vignette__wrapper__img" src="./images/8.jpg" alt="dessin de repy">
+                    <img class="vignette__wrapper__img" src="./images/7.jpg" alt="dessin de repy">
+                    <img class="vignette__wrapper__img" src="./images/6.jpg" alt="dessin de repy">
+                    <img class="vignette__wrapper__img" src="./images/5.jpg" alt="dessin de repy">
+                    <img class="vignette__wrapper__img" src="./images/4.jpg" alt="dessin de repy">
+                    <img class="vignette__wrapper__img" src="./images/3.jpg" alt="dessin de repy">
+                    <img class="vignette__wrapper__img" src="./images/2.jpg" alt="dessin de repy">
+                    <img class="vignette__wrapper__img" src="./images/1.jpg" alt="dessin de repy">
+        
+                </div>
+
             </div>
 
 
         </div>
 
+
+
     </main>
+    <footer>
+        <p>Romain Deldon - Repy - toutes les images sont sous copyright Repy</p>
+    </footer>
 </body>
+
 </html>
