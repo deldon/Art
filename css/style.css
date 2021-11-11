@@ -1,0 +1,122 @@
+body{
+
+background-color: black;
+}
+header{
+    background-image: url(../images/Repy_portrait_reunion-graffiti.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    
+
+}
+
+.header__titre{
+    position: absolute;
+    right: 250px;
+    top: 70px;
+
+
+}
+
+h1{
+
+
+    color: white;
+    font-size: 6rem;
+    font-family: 'Playball', cursive;
+    margin-bottom: 0.5rem;
+
+}
+
+h2{
+
+    font-size: 1.5rem;
+    display: block;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+h3{
+
+
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 01.5rem;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+.main__wrapper{
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  
+    flex-wrap: wrap;
+
+}
+
+.main__wrapper__img{
+   width: 28%;
+   padding: 0.1rem;
+   transition: transform .2s; /* Animation */
+
+}
+
+.main__wrapper__img:hover{
+    width: 28%;
+    padding: 0.1rem;
+    transform: scale(1.1);
+    
+ }
+
+ .contact__wrapper{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+    flex-wrap: wrap;
+
+}
+ 
+
+h4{
+
+
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 01.5rem;
+    text-align: center;
+
+}
+
+
+
+.main__social{
+    width: 40%;
+    color: white;
+   
+    
+}
+
+.main__contact{
+
+    width: 40%;
+    color: white;
+    
+    
+}
