@@ -72,16 +72,25 @@ h3 {
 .main__wrapper__img {
     width: 28%;
     padding: 0.1rem;
-    transition: transform .2s;
+    transition: transform .4s;
     /* Animation */
+    flex: auto;
+    border-radius: 0;
 
 }
 
 .main__wrapper__img:hover {
     width: 28%;
     padding: 0.1rem;
-    transform: scale(1.1);
+    transform: scale(1.03);
+    border-radius: 5px;
+    
 
+}
+
+.video{
+
+    flex: 900;
 }
 
 .contact__wrapper {
